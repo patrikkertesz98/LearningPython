@@ -50,7 +50,7 @@ def bubble_sort(original_list):
     print('Sorted list: ')
     print_list(original_list)
 
-#bubble_sort(num_list)
+bubble_sort(num_list)
 
 # INSERTION SORT
 
@@ -70,4 +70,4 @@ def insertion_sort(original_list):
         print('Sorted till index: ', i)
         print_list(original_list)
 
-insertion_sort(num_list)
+#insertion_sort(num_list)
